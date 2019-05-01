@@ -1,0 +1,57 @@
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-responsive {
+  max-height: 500px;
+  height: 70%;
+  width: auto;
+}
+
+.footer {
+  top: 10px;
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+  min-height: 224px;
+  min-height: 100px;
+  padding: 30px 0;
+  background-color: #d7321f;
+}
+
+@font-face {
+  font-family: 'Bacon_Bad';
+  src: url('Bacon_Bad.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bacon_Bad';
+  src: url('../font/Bacon_Bad.ttf');
+  /* IE9 Compat Modes */
+  src: url('../font/Bacon_Bad.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../font/Bacon_Bad.ttf') format('woff2'),
+    /* Super Modern Browsers */
+    url('../font/Bacon_Bad.ttf') format('woff'),
+    /* Pretty Modern Browsers */
+    url('../font/Bacon_Bad.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+h1,
+h2 {
+  font-family: 'Bacon_Bad', Fallback, sans-serif;
+}
+
+.font-title {
+  font-size: 70px;
+}
+
+.bg-bacon {
+  background-color: #d7321f;
+}
